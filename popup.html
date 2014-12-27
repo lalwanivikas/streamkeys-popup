@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <link href="css/popup.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="http://www.streamkeys.com" target="_blank" tabindex="-1">Streamkeys</a>
+    </div>
+
+    <div id="player">
+      <div class="player-row">
+        <button type="button" class="btn btn-default sk-playcontrols" id="playPrev" tabindex="-1"><span class="glyphicon glyphicon-backward"></span></button>
+        <button type="button" class="btn btn-default sk-playcontrols" id="playPause" tabindex="-1"><span class="glyphicon glyphicon-play"></span></button>
+        <button type="button" class="btn btn-default sk-playcontrols" id="playNext" tabindex="-1"><span class="glyphicon glyphicon-forward"></span></button>
+      </div>
+    </div>
+
+    <div id="music-site">
+      <div class="button-row">
+        <button type="button" id="enable-site" class="btn btn-sm btn-success" tabindex="-1">
+          <span class="glyphicon glyphicon-ok"></span>Enabled for this site
+        </button>
+        <button type="button" id="enable-tab" class="btn btn-sm btn-success" tabindex="-1">
+          <span class="glyphicon glyphicon-ok"></span>Enabled for this tab
+        </button>
+      </div>
+    </div>
+
+    <div id="fail-message">Oops! Not a music site!</div>
+
+    <div class="options-row">
+      <div>
+        <a href="#" id="options-link" target="_blank" tabindex="-1">Options</a>
+        <a href="http://www.streamkeys.com/guide.html" id="help-link" target="_blank" tabindex="-1">Help</a>
+      </div>
+    </div>
+
+  </body>
+</html>
